@@ -13,9 +13,16 @@ $briks-components-generic: (
         // Responsive activé true ou false
         responsive: true, 
         // Liste des propriétés c-dis par défaut
-        defaults: (),
+        defaults: (
+            --ita-gap: 0px,
+            gap: var(--ita-gap),
+            grid-gap: var(--ita-gap)
+        ),
         // Rendu: 
         // c-dis {
+        //  --ita-gap: 0px,
+        //  gap: var(--ita-gap),
+        //  grid-gap: var(--ita-gap)
         // }
         // Liste des modifieurs contenant chacun une liste de propriétés qui 
         // soit surchargent les propriétés par défaut
