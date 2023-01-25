@@ -30,16 +30,16 @@ a le même effet que les classes CSS
 
 ```html
 <!-- Avec des classes responsives -->
-<div class="c-dis m-main-end--xs">
-    <div>Je m'aligne au bout de l'axe "main"<br> sur la taille d'écran xs<br> via des classes CSS</div>
+<div class="c-dis m-inline--xs">
+    Je deviens inline en taille d'écran xs
 </div>
 <!-- Avec l'attribut responsive - 1 taille d'écran -->
-<div class="c-dis" m-main-end="xs">
-    <div>Je m'aligne au bout de l'axe "main"<br> sur la taille d'écran xs<br> via l'attribut responsive</div>
+<div class="c-dis" m-inline="xs">
+    Je deviens inline en taille d'écran xs
 </div>
 <!-- Avec l'attribut responsive - multiples tailles d'écrans -->
-<div class="c-dis" m-main-end="xs,sm">
-    <div>Je m'aligne au bout de l'axe "main"<br> sur les tailles d'écran xs et sm<br> via l'attribut responsive</div>
+<div class="c-dis" m-inline="xs,sm">
+    Je deviens inline en taille d'écran xs et sm
 </div>
 <!-- DEMO UNIQUEMENT -->
 <style>
@@ -53,9 +53,6 @@ a le même effet que les classes CSS
         padding-bottom: 50vh;
     }
     .c-dis {
-        background-color: var(--ita-color-primary-800);
-    }
-    .c-dis > * {
         background-color: var(--ita-color-primary-500);
         color: var(--ita-color-primary-900);
         border: var(--ita-border-6);
@@ -63,9 +60,6 @@ a le même effet que les classes CSS
     }
     .c-dis + .c-dis {
         margin-top: var(--ita-spacing-4);
-    }
-    .c-dis + h2 {
-        margin-top: var(--ita-spacing-12);
     }
 </style>
 ```

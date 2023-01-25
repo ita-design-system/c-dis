@@ -3,7 +3,7 @@ layout: libdoc/page-codemirror
 permalink: index.html
 unlisted: true
 ---
-<section class="c-dis m-flex"
+<section class="c-dis m-flex m-wrap"
     m-nowrap="sm,md,lg,xl">
     <menu class="c-dis m-flex" 
         m-column="sm,md,lg,xl">

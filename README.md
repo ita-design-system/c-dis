@@ -68,76 +68,84 @@ $briks-components-generic: (
             flex: (
                 display: flex
             ),
-            // c-dis m-grid
-            grid: (
-                display: grid
-            ),
             // c-dis m-inline-flex
             inline-flex: (
                 display: inline-flex
             ),
+            // c-dis m-grid
+            grid: (
+                display: grid
+            ),
+            // c-dis m-inline-grid
+            inline-grid: (
+                display: inline-grid
+            ),
             // FLEX
             // Axe main
-            // c-dis m-main-start
+            // c-dis m-flex m-main-start
             main-start: ( 
                 justify-content: flex-start
             ),
-            // c-dis m-main-center
+            // c-dis m-flex m-main-center
             main-center: ( 
                 justify-content: center
             ),
-            // c-dis m-main-end
+            // c-dis m-flex m-main-end
             main-end: (
                 justify-content: flex-end
             ),
-            // c-dis m-main-space-between
+            // c-dis m-flex m-main-space-between
             main-space-between: ( 
                 justify-content: space-between
             ),
-            // c-dis m-main-space-around
+            // c-dis m-flex m-main-space-around
             main-space-around: ( 
                 justify-content: space-around
             ),
-            // c-dis m-main-space-evenly
+            // c-dis m-flex m-main-space-evenly
             main-space-evenly: ( 
                 justify-content: space-evenly
             ),
             // Axe cross
-            // c-dis m-cross-center
+            // c-dis m-flex m-cross-center
             cross-center: ( 
                 align-items: center
             ),
-            // c-dis m-cross-baseline
+            // c-dis m-flex m-cross-baseline
             cross-baseline: ( 
                 align-items: baseline
             ),
-            // c-dis m-cross-start
+            // c-dis m-flex m-cross-start
             cross-start: ( 
                 align-items: flex-start
             ),
-            // c-dis m-cross-end
+            // c-dis m-flex m-cross-end
             cross-end: ( 
                 align-items: flex-end
             ),
             // Wrap / retour à la ligne
-            // c-dis m-nowrap
+            // c-dis m-flex m-nowrap
             nowrap: ( 
                 flex-wrap: nowrap
             ),
-            // c-dis m-wrap-reverse
+            // c-dis m-flex m-wrap
+            wrap: ( 
+                flex-wrap: wrap
+            ),
+            // c-dis m-flex m-wrap-reverse
             wrap-reverse: ( 
                 flex-wrap: wrap-reverse
             ),
             // Direction
-            // c-dis m-column
+            // c-dis m-flex m-column
             column: ( 
                 flex-direction: column
             ),
-            // c-dis m-column-reverse
+            // c-dis m-flex m-column-reverse
             column-reverse: ( 
                 flex-direction: column-reverse
             ),
-            // c-dis m-cross-row-reverse
+            // c-dis m-flex m-cross-row-reverse
             row-reverse: ( 
                 flex-direction: row-reverse
             )
