@@ -2,7 +2,18 @@
 
 [Démo et documentation](https://ita-design-system.github.io/c-dis.scss/)
 
-Composant générique CSS c-dis du système de design IT Automotive.
+Composant CSS dédié à la propriété display des éléments. 
+
+## Scope
+
+Liste des propriétés CSS utilisées par le composant
+
+* [display](https://developer.mozilla.org/fr/docs/Web/CSS/display)
+* [align-items](https://developer.mozilla.org/fr/docs/Web/CSS/align-items)
+* [justify-content](https://developer.mozilla.org/fr/docs/Web/CSS/justify-content)
+* [flex-wrap](https://developer.mozilla.org/fr/docs/Web/CSS/flex-wrap)
+* [flex-direction](https://developer.mozilla.org/fr/docs/Web/CSS/flex-direction)
+* [gap](https://developer.mozilla.org/fr/docs/Web/CSS/gap)
 
 ## Typologie d'un composant générique
 
@@ -45,8 +56,7 @@ $briks-components-generic: (
         // Liste des propriétés c-dis par défaut
         defaults: (
             --ita-gap: 0px,
-            gap: var(--ita-gap),
-            grid-gap: var(--ita-gap)
+            gap: var(--ita-gap)
         ),
         // Rendu: 
         // c-dis {

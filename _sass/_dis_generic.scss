@@ -15,8 +15,7 @@ $briks-components-generic: (
         // Liste des propriétés c-dis par défaut
         defaults: (
             --ita-gap: 0px,
-            gap: var(--ita-gap),
-            grid-gap: var(--ita-gap)
+            gap: var(--ita-gap)
         ),
         // Rendu: 
         // c-dis {
