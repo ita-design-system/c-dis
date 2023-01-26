@@ -41,6 +41,9 @@ a le même effet que les classes CSS
 <div class="c-dis" m-inline="xs,sm">
     Je deviens inline en taille d'écran xs et sm
 </div>
+<div class="c-dis" m-none="sm,md,lg,xl">
+    Je n'apparaît que sur la taille d'écran xs
+</div>
 <!-- DEMO UNIQUEMENT -->
 <style>
     body {

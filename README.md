@@ -69,6 +69,10 @@ $briks-components-generic: (
         // soit ajoutent des propriétés
         // soit les deux
         modifiers: ( 
+            // c-dis m-none
+            none: (
+                display: none
+            ),
             // c-dis m-inline
             inline: (
                 display: inline

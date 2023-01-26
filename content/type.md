@@ -6,6 +6,7 @@ order: 150
 ---
 ```html
 <div class="c-dis">c-dis<br> c-dis seul n'a pas d'effet</div><br>
+<div class="c-dis m-none">c-dis m-none<br> c'est comme si j'étais pas là !</div>
 <div class="c-dis m-inline">c-dis m-inline, display: inline</div><br>
 <span class="c-dis m-block">c-dis m-block<br> display: block</span>
 <div class="c-dis m-inline-block">c-dis m-inline-block<br> display: inline-block</div>
@@ -27,7 +28,6 @@ order: 150
     .c-dis {
         background-color: var(--ita-color-primary-500);
         color: var(--ita-color-neutral-100);
-        padding: var(--ita-spacing-4);
     }
     .c-dis + .c-dis {
         margin-top: var(--ita-spacing-4);
