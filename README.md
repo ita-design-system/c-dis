@@ -60,9 +60,8 @@ $briks-components-generic: (
         ),
         // Rendu: 
         // c-dis {
-        //  --ita-gap: 0px,
-        //  gap: var(--ita-gap),
-        //  grid-gap: var(--ita-gap)
+        //      --ita-gap: 0px;
+        //      gap: var(--ita-gap);
         // }
         // Liste des modifieurs contenant chacun une liste de propriétés qui 
         // soit surchargent les propriétés par défaut
