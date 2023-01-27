@@ -2,7 +2,7 @@
 title: Types de display
 description: Modifieurs de la propriété display
 layout: libdoc/page-split
-order: 150
+order: 115
 ---
 ```html
 <div class="c-dis">c-dis<br> c-dis seul n'a pas d'effet</div><br>

@@ -2,7 +2,7 @@
 title: Flexbox wrap
 description: Modifieurs relatifs au retour à la ligne et à l'ordre d'affichage
 layout: libdoc/page-split
-order: 400
+order: 140
 ---
 ```html
 <h2>m-flex m-wrap</h2>

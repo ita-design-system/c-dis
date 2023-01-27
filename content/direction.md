@@ -2,7 +2,7 @@
 title: Flexbox direction
 description: Modifieurs flexbox relatif à la direction
 layout: libdoc/page-split
-order: 500
+order: 150
 ---
 ```html
 <h2>m-flex m-column</h2>

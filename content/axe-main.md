@@ -2,7 +2,7 @@
 title: Flexbox axe main
 description: Modifieurs flexbox pour l'axe secondaire "main"
 layout: libdoc/page-split
-order: 200
+order: 120
 ---
 ```html
 <h2>m-flex m-main-start</h2>

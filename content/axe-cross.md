@@ -2,7 +2,7 @@
 title: Flexbox axe cross
 description: Modifieurs flexbox pour l'axe secondaire "cross"
 layout: libdoc/page-split
-order: 300
+order: 130
 ---
 ```html
 <h2>m-flex m-cross-start</h2>
