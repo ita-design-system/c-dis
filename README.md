@@ -100,6 +100,10 @@ $briks-components-generic: (
             inline-grid: (
                 display: inline-grid
             ),
+            // c-dis m-webkit-box (utile pour les ellipses à plusieurs lignes)
+            webkit-box: (
+                display: -webkit-box
+            ),
             // FLEX
             // Axe main
             // c-dis m-flex m-main-start
@@ -168,7 +172,25 @@ $briks-components-generic: (
             // c-dis m-flex m-cross-row-reverse
             row-reverse: ( 
                 flex-direction: row-reverse
-            )
+            ),
+            // ELLIPSE 2 lignes
+            // A utiliser avec c-txt et c-dim
+            // c-dis m-webkit-box
+            // c-dim m-o-hidden
+            // c-txt m-ellipsis-2
+            ellipsis-2: (
+                '-webkit-box-orient': vertical,
+                '-webkit-line-clamp': 2
+            ),
+            // ELLIPSE 3 lignes
+            // A utiliser avec c-txt et c-dim
+            // c-dis m-webkit-box
+            // c-dim m-o-hidden
+            // c-txt m-ellipsis-3
+            ellipsis-3: (
+                '-webkit-box-orient': vertical,
+                '-webkit-line-clamp': 3
+            ),
         )
     )
 );
