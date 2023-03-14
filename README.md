@@ -6,14 +6,45 @@ Composant CSS dédié à la propriété display des éléments.
 
 ## Scope
 
-Liste des propriétés CSS utilisées par le composant
+Liste des propriétés CSS prises en charge par le composant
 
-* [display](https://developer.mozilla.org/fr/docs/Web/CSS/display)
-* [align-items](https://developer.mozilla.org/fr/docs/Web/CSS/align-items)
-* [justify-content](https://developer.mozilla.org/fr/docs/Web/CSS/justify-content)
-* [flex-wrap](https://developer.mozilla.org/fr/docs/Web/CSS/flex-wrap)
-* [flex-direction](https://developer.mozilla.org/fr/docs/Web/CSS/flex-direction)
-* [gap](https://developer.mozilla.org/fr/docs/Web/CSS/gap)
+* align-items
+* backface-visibility
+* clear
+* display
+* justify-content
+* flex
+* flex-basis
+* flex-direction
+* flex-flow
+* flex-shrink
+* flex-wrap
+* float
+* gap
+* grid-gap
+* grid
+* grid-area
+* grid-auto-columns
+* grid-auto-flow
+* grid-auto-rows
+* grid-column
+* grid-column-end
+* grid-column-start
+* grid-row
+* grid-row-end
+* grid-row-start
+* grid-template
+* grid-template-areas
+* grid-template-columns
+* grid-template-rows
+* row-gap
+* place-content
+* place-items
+* place-self
+* table-layout
+* visibility
+* -webkit-box-orient
+* -webkit-line-clamp
 
 ## Typologie d'un composant générique
 
